@@ -1,0 +1,171 @@
+.obox{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.obox1 {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.part2 {
+    background-color: rgb(246, 246, 233);
+    display: grid;
+    grid-template-rows: 1.75fr 1fr 1fr 1fr;
+}
+.part1{   
+    background-color: rgb(246, 246,233);
+    display: grid;
+    grid-template-rows: 1.75fr 1fr 1fr 1fr;
+}
+
+.page_title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.boxd{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 300px;
+}
+.dummy{
+
+}
+.dcontainer{
+    height:55%;
+    background-color: rgb(151, 182, 144);
+    align-items: center;
+}
+.description{
+    font-family: Gaglin;
+    word-spacing: 10px;
+    line-height: 67px;
+    margin-top: 15%;
+    margin-left: 7%;
+    margin-bottom: 0%;
+    font-size: 45.5px;
+    font-weight: bold;
+}
+.boxi {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    background-color: rgb(69, 125, 88);
+}
+
+.img{
+        display: flex;
+        background-color: rgb(151, 182, 144);
+        height: 55%;
+}
+
+.titleimg{
+    margin-right: 10%;
+    margin-top: 11%;
+    margin-left: 4%;
+    margin-bottom: 8%;
+    width: 85%;
+}
+
+.bbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.box1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(69, 125, 88);
+    justify-content: center;
+
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+}
+
+.gfg{
+    width: 35%;
+}
+
+.google{
+    width: 120%;
+}
+
+.udemy{
+ width: 45%;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description1{
+    font-family: Gaglin;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.description2{
+    margin-left:7.5% ;
+    margin-right: 7%;
+    font-size: 28px;
+}
+.accessnow{
+    font-size: 40px;
+    background-color: rgb(125,155,118);
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+.accessnow:hover{
+    cursor: pointer;
+}
+
+.redirect{
+    text-decoration: none;
+    color:white;
+}
+
+.codechef{
+    width: 120%;
+}
+.leetcode{
+    width: 40%;
+}
+.hackerrank{
+    width: 90%;
+}
+
+.descriptioncontest{
+    font-family: Gaglin;
+        word-spacing: 10px;
+        line-height: 70px;
+        margin-top: 18%;
+        margin-left: 15%;
+        margin-bottom: 0%;
+        font-size: 53px;
+        font-weight: bold;
+}
+
+.imgcontest{
+    display: flex;
+    background-color: rgb(151, 182, 144);
+    height: 55%;
+    padding-left: 5%;
+}
+
+.titleimg1{
+        margin-right: 4%;
+        margin-top: 11%;
+        margin-left: 9%;
+        margin-bottom: 8%;
+        width: 85%;
+}

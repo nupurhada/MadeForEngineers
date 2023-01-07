@@ -1,0 +1,100 @@
+.header {
+    font-family: Roboto, Arial;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: rgb(125,155 ,118 );
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+}
+
+.logo{
+    width: 18%;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: -12%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-size: 80px;
+}
+
+.study,
+.practice,
+.contest {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.study .tooltip,
+.contest .tooltip,
+.practice .tooltip {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.contest:hover .tooltip,
+.practice:hover .tooltip,
+.study:hover .tooltip {
+    opacity: 1;
+}
+.hovertext{
+    font-size: 15px;
+}
+
+.right-section {
+    width: 600px;
+    margin-left: 100px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.practiceimg {
+    width: 80%;
+}
+
+.contestimg {
+    width: 50%;
+}
+
+.studyimg {
+    width: 50%;
+}
